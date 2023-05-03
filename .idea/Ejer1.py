@@ -1,0 +1,5 @@
+print('Area y perimetro de un rectangulo')
+alto = int(input('Ingrese el valor del alto:'))
+ancho = int(input('Ingrese el valor del ancho: '))
+print(f'Area: {alto*ancho}')
+print(f'Perimetro: {(alto**2)+(ancho**2)}')
